@@ -15,7 +15,7 @@ public class Problem011 {
             for (int j = length - 1; j > i; j--) {
                 int jv = height[j];
                 int area = (j - i) * Math.min(iv, jv);
-                //System.out.println(area);
+
                 if (area > max)
                     max = area;
                 if (jv >= iv)
