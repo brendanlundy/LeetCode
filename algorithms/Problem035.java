@@ -26,6 +26,5 @@ public class Problem035 {
             return mid + 1;
         else
             return mid;
-
     }
 }
