@@ -1,7 +1,10 @@
 package utility;
 
 public class Timer {
-
+    // To use:
+    //    Timer t = new Timer();
+    //    t.start();
+    //    t.end();
     double startTime = 0;
     double endTime = 0;
 
