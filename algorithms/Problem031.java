@@ -3,7 +3,7 @@ package algorithms;
 public class Problem031 {
 
     public static void main(String[] args) {
-        int[] nums = new int[] { 4, 3, 2 };
+        int[] nums = new int[] { 1, 3, 2 };
         nextPermutation(nums);
         for (int i = 0; i < nums.length; i++) {
             System.out.println(nums[i]);
